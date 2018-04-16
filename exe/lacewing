@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require "lacewing"
+
+opts = Trollop.options do
+  version "Lacewing v#{Lacewing::VERSION.green} - Your neighborhood bug bounty assistant"
+  opt :target, 'The target domain or ip to scan', type: :string
+  opt :promptchar, 'The character of the prompt', type: :string, default: "> "
+  opt :promptstr, 'The main string of the prompt', type: :string, default: "lacewing".green
+end
+
+unless !opts[:target].nil? and (Rex::Socket.is_ipv4?(opts[:target]) or Rex::Socket.is_ipv6?(opts[:target]) or opts[:target] =~ /^[a-z]*:\/\/([^\/])\//)
+  Trollop.die :target, "must be a domain or IP address" unless ARGV.empty?
+end
+
+Lacewing::Cli.start(opts)

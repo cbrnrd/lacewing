@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="ModuleRunConfigurationManager">
+    <shared />
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="addressable (v2.5.2, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.16.1, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="colorize (v0.8.1, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.3, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="domain_name (v0.5.20170404, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="equatable (v0.5.0, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="hitimes (v1.2.6, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="http (v3.0.0, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="http-cookie (v1.0.3, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="http-form_data (v2.1.0, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="http_parser.rb (v0.6.0, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="necromancer (v0.4.0, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="openssl (v2.1.0, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pastel (v0.7.2, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="public_suffix (v3.0.0, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rake (v10.5.0, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rex-core (v0.1.13, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rex-socket (v0.1.14, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rex-text (v0.2.18, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec (v3.7.0, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-core (v3.7.1, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v3.7.0, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-mocks (v3.7.0, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-support (v3.7.1, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-rc4 (v0.1.5, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="timers (v4.1.2, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="trollop (v2.1.2, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tty-color (v0.4.2, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tty-cursor (v0.5.0, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tty-prompt (v0.16.0, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tty-reader (v0.2.0, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tty-screen (v0.6.4, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unf (v0.1.4, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unf_ext (v0.0.7.5, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="wisper (v2.0.0, ruby-2.5.0-p0) [gem]" level="application" />
+  </component>
+</module>
