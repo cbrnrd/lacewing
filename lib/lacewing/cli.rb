@@ -8,7 +8,9 @@ module Lacewing
       Lacewing::Scans.subdomains
       Lacewing::Cli.narrow?
       Lacewing::Scans.nmap
-      Lacewing::Cli.exploit_menu
+      loop do
+        Lacewing::Cli.exploit_menu
+      end
     end
 
     def self.show_hello(opts)
@@ -22,7 +24,24 @@ module Lacewing
       $target = $prompt.ask("What's your new target? (*.#{$target})") if narrow
     end
 
-    def self.exploit_menu; end
+    def self.exploit_menu
+      opts = ['LFI', 'RCE', 'XSS', 'Code Injection', 'Reverse Shell', 'SQL Injection']
+      opt = $prompt.select(Lacewing::PROMPT + 'What vulnerability would you like to use?', opts)
 
+      case opt
+      when 'LFI'
+        Lacewing::Exploits.lfi
+      when 'RCE'
+        Lacewing::Exploits.rce
+      when 'XSS'
+        Lacewing::Exploits.xss
+      when 'Code Injection'
+        Lacewing::Exploits.code_injection
+      when 'Reverse Shell'
+        Lacewing::Exploits.reverse_shell
+      when 'SQL Injection'
+        Lacewing::Exploits.sqli
+      end
+    end
   end
 end
