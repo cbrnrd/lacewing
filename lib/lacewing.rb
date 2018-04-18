@@ -1,10 +1,2 @@
-require 'lacewing/constants'
-require 'lacewing/scans'
-require 'lacewing/cli'
-require 'lacewing/exploits'
 
-require 'io/console'
-require 'trollop'
-require 'tty-prompt'
-require 'rex/socket'
-require 'http'
+require 'lacewing/version'
