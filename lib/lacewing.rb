@@ -1,2 +1,1 @@
-
 require 'lacewing/version'

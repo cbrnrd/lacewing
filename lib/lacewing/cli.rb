@@ -3,18 +3,19 @@ require 'lacewing'
 module Lacewing
   class Cli
     def self.start(opts = {})
+      puts opts
       $prompt = TTY::Prompt.new
       Lacewing::Cli.show_hello(opts)
-      Lacewing::Scans.subdomains
+      Lacewing::Scans.subdomains unless opts[:no_subdomains]
       Lacewing::Cli.narrow?
-      Lacewing::Scans.nmap
+      Lacewing::Scans.nmap unless opts[:no_nmap]
       loop do
         Lacewing::Cli.exploit_menu
       end
     end
 
     def self.show_hello(opts)
-      puts Lacewing::PROMPT + "Hi there #{ENV['USERNAME']}!"
+      puts Lacewing::PROMPT + "Hi there #{opts[:name] || ENV['USERNAME']}!"
       $target = opts[:target] || $prompt.ask('What website would you like to research? ')
       puts "Using #{$target.green} as a target."
     end

@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
 
-  spec.add_runtime_dependency 'trollop', '~> 2.1.2'
+  spec.add_runtime_dependency 'trollop', '~> 2.1'
   spec.add_runtime_dependency 'tty-prompt', '~> 0.16.0'
   spec.add_runtime_dependency 'colorize', '~> 0.8.1'
   spec.add_runtime_dependency 'rex-text', '~> 0.2.18'
