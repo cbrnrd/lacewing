@@ -1,4 +1,4 @@
-# Lacewing
+[![lacewing](https://github.com/cbrnrd/lacewing/raw/master/img/logo.png)]
 
 Welcome to Lacewing 🦗! Lacewing is a tool to assist you in finding and reporting 
 bugs to bug bounty programs. As of right now, it is an interactive program, 
@@ -20,9 +20,6 @@ Or install it yourself as:
 
     $ gem install lacewing
 
-## Usage
-
-TODO: Write usage instructions here
 
 ## Development
 
@@ -41,3 +38,11 @@ The gem is available as open source under the terms of the [MIT License](https:/
 ## Code of Conduct
 
 Everyone interacting in the Lacewing project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/cbrnrd/lacewing/blob/master/CODE_OF_CONDUCT.md).
+
+## Author
+- Carter Brainerd - @cbrnrd - http://carterbrainerd.me
+
+## Made With
+- RubyGems
+- RubyMine IDE
+- All gems in the [gemfile](https://github.com/cbrnrd/lacewing/blob/master/Gemfile)
