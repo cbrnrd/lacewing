@@ -1,8 +1,8 @@
-![lacewing](https://github.com/cbrnrd/lacewing/raw/master/img/logo.png)
+![lacewing](https://github.com/cbrnrd/lacewing/raw/master/img/text-gradient.png)
 
 Welcome to Lacewing 🦗! Lacewing is a tool to assist you in finding and reporting 
 bugs to bug bounty programs. As of right now, it is an interactive program, 
-but is subject to change
+but is subject to change.
 
 ## Installation
 
