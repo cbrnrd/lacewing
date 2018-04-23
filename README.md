@@ -1,4 +1,4 @@
-![lacewing](https://github.com/cbrnrd/lacewing/raw/master/img/text-gradient.png)
+﻿![lacewing](https://github.com/cbrnrd/lacewing/raw/master/img/text-gradient.png)
 
 Welcome to Lacewing 🦗! Lacewing is a tool to assist you in finding and reporting 
 bugs to bug bounty programs. As of right now, it is an interactive program, 
@@ -29,7 +29,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/cbrnrd/lacewing. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/cbrnrd/lacewing/pulls. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
